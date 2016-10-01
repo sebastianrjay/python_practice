@@ -2,6 +2,9 @@
 # space complexities. Worst case time complexity (for a string consisting of the 
 # same repeating character) is O(n ** 2)
 
+# More details here:
+# https://github.com/sebastianrjay/Algorithms/blob/master/longest_palindromic_substring.rb
+
 def update_palindrome_store(string, pals, i, best_len):
   new_pals, deleted_pal_lengths = {}, []
 
